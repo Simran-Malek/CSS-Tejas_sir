@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"],input[type="password"],input[type="email"]{
+            border-radius: 5px;
+            height: 25px;
+            width: 100%;
+            margin-top: 15px;
+            /* display: block; */
+        }
+        input:focus{
+            border: 2px solid blue;
+            outline: none;
+        }
+        .box{
+            border: 1px solid black;
+            width: 300px;
+            padding: 15px;
+            border-radius: 5px;
+            background-color: aliceblue;
+            box-shadow: 5px 5px 5px 5px rgb(61, 134, 207);
+            border: none;
+        }
+        body{
+            background-color: rgb(107, 191, 231);
+            margin: 0px;    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .btn{
+            border: 2px solid black;
+            padding: 3px;
+            width: 100%;
+            border-radius: 5px;
+            background-color:rgb(95, 154, 218);
+            height: 25px;
+        }
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <p style="text-align: center; font-size: 25px; font-weight: bold;">Create Account</p>
+        <form>
+            <label>Firstname </label>
+            <input type="text" name="firstname" placeholder="Enter First Name"><br><br>
+
+            <label>Lastname</label>
+             <input type="text" placeholder="Enter Last Name"><br><br>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email"><br><br>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password"><br><br>
+
+            <label>Confirm Password</label>
+            <input type="password" placeholder="ConfirmPassword"><br><br>
+
+
+            <input type="button" value="SignUp" class="btn">
+            <p>Already Have a Account ? <a href="#" style="text-decoration: none;">Login</a></p>
+        </form>
+    </div>
+</body>
+</html>

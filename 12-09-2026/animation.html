@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background: blue;
+            animation-name: changeBG;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            position: relative;
+            animation-timing-function: linear;
+        }
+
+        @keyframes changeBG{
+            0%{
+                left: 0;
+                background-color: brown;
+            }
+            25%{
+                left: 1000px;
+                top: 0;
+                background-color: brown;
+            }
+            50%{
+                left: 1000px;
+                top: 500px; 
+                background-color: burlywood;
+            }
+            75%{
+                left: 0;
+                top: 500px;
+                background-color: brown;
+            }
+            100%
+            {
+                left: 0;
+                top:0;
+                background-color: burlywood;
+            }
+        }
+        /* @keyframes changeBG{
+            0%{
+                left:0;
+            }
+            100%{
+                left:200px;
+            }
+        } */
+        /* @keyframes changeBG{
+            0%{
+                background:blue;
+            }
+            25%{
+                background:pink;
+            }
+            50%{
+                background:green;
+            }
+            75%{
+                background:yellow;
+            }
+            100%{
+                background:red;
+            }
+        } */
+        /* @keyframes changeBG{
+             form{
+                background: blue;
+             }
+              
+             to{
+                background: red;
+             }
+        } */
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

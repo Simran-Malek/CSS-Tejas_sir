@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            height: 100px;
+            width: 100px;
+            background-color: bisque;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: rows;
+            /* gap also property of flex */
+            justify-content: space-evenly;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- align-item ke saath height deni padegi align column wise karega -->
+     <!-- justify-content rows wise karega -->
+    <div class="container">
+        <div class="card">Total Users</div>
+        <div class="card">Total Orders</div>
+        <div class="card">Total Retuns</div>
+        <div class="card">Total Products</div>
+    </div>
+</body>
+</html>

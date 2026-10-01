@@ -1,0 +1,37 @@
+completed tags
+
+color : for text color
+text-decoration : fro decoration of text
+ font-style : for styling the text
+ font-family: 
+ font-size:
+ font-weight:
+  text-transform:
+  text-align:
+
+
+  border
+    border-radius
+
+
+  color values
+    color name
+    rgb
+    rgba --opacity
+    hexadecimal
+    hsl
+
+background 
+    background color
+    background image:url("")
+    backgroung repeat:
+    background position
+    background attachment
+
+    background:()=====> shorthand
+
+    to get the background in the centre use property background-position : center 
+    margin :0;
+    height:100vh;
+    vh---view height makes the page height responsive
+    vw---view width makes the page width responsive
